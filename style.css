@@ -8,3 +8,19 @@
 body {
     background-color: #f9f9f9;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 25px;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+
+    z-index: 1000;
+}
