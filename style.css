@@ -125,3 +125,35 @@ body {
     color: #606060;
     font-size: 14px;
 }
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .sidebar {
+        display: none;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+
+    .search-bar {
+        width: 60%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .header {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+}
