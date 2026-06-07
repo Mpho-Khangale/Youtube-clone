@@ -40,13 +40,22 @@ body {
 }
 
 .logo h2 {
-    font-size: 18px;
+    font-size: 22px;
     color: red;
+    font-weight: bold;
+    display: inline-block;
 }
 
 .logo span {
-    font-size: 12px;
-    color: gray;
+    font-size: 10px;
+    color: #606060;
+
+    position: relative;
+    top: -8px;
+
+    margin-left: 2px;
+
+    font-weight: normal;
 }
 
 .search-bar {
