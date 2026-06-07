@@ -48,6 +48,13 @@ body {
     cursor: pointer;
 }
 
+.search-bar img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
 .profile img {
     border-radius: 50%;
     width: 24px;
