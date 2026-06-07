@@ -270,6 +270,43 @@ body {
     font-size: 14px;
 }
 
+/* Dark Mode */
+
+.dark-mode {
+    background-color: #0f0f0f;
+    color: white;
+}
+
+.dark-mode .header {
+    background-color: #0f0f0f;
+    border-bottom: 1px solid #333;
+}
+
+.dark-mode .sidebar {
+    background-color: #0f0f0f;
+}
+
+.dark-mode .video-card {
+    background-color: #1f1f1f;
+}
+
+.dark-mode .sidebar li:hover {
+    background-color: #272727;
+}
+
+.dark-mode .footer-links,
+.dark-mode .footer-copy,
+.dark-mode .video-card p,
+.dark-mode .video-card span {
+    color: #aaaaaa;
+}
+
+.dark-mode input {
+    background-color: #121212;
+    color: white;
+    border: 1px solid #444;
+}
+
 /* Responsive */
 
 @media (max-width: 768px) {
